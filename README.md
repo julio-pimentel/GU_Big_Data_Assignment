@@ -1,4 +1,4 @@
-# Seek Job Market analysis
+# SEEK Job Market analysis
 For the course 7030ICT Introduction to Big Data Analytics at Griffith University, we analysed a dataset of the SEEK job market. It is an Australian platform where companies can post job announcements and job seekers can apply for a position. We focused on the Information & Communication Technology category. The project is divided in 3 parts. 
 
 ## Part 1 - Data Preparation and Pre-processing
