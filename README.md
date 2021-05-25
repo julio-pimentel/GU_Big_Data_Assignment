@@ -62,8 +62,8 @@ Our group selected the variable "Information & Communication Technology" in the 
 
 ![](https://github.com/julio-pimentel/SEEK_Job_Market_analysis/blob/main/Plots/word%20cloud.png)
 
-<br>Acknowledgements:</br>
-<br>Gabriela Monteiro</br>
-<br>Julio Pimentel</br>
-<br>Daniel Spindler</br>
-<br>Henry Nguyen, Griffith University</br>
+<br>Acknowledgements:
+<br>Gabriela Monteiro
+<br>Julio Pimentel
+<br>Daniel Spindler
+<br>Henry Nguyen, Griffith University
