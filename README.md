@@ -38,25 +38,30 @@ The locations “Port Headland, Karratha & Pilbara”, “Kalgoorlie, Goldfields
 We compared the cities of Adelaide and Gold Coast in terms of the number of job posts for four different job types. Overall, Adelaide has more job posts, and the ranking
 of job types is the same in both cities. To begin, Adelaide is the city with the highest number of job posts, having 4,873 open positions. In contrast, the Gold Coast shows a total of 2,695 posts. The ranking of type of jobs in both cities follows the same pattern: full-time jobs occupy the first place in several job posts, followed by casual/vacation in the second place, contract/temp in the third place and part-time in the last position. 
 
-
+![](https://github.com/julio-pimentel/SEEK_Job_Market_analysis/blob/main/Plots/number%20posts%20per%20city%20by%20job%20type.png)
 
 It is possible to see that the top five sectors are very similar in both cities, with some slight variations. It is evident that “Trades & Services” and “Healthcare & Medical” are equally important in both locations, representing a good number of job posts. 
 
+![](https://github.com/julio-pimentel/SEEK_Job_Market_analysis/blob/main/Plots/number%20job%20posts%20Adelaide.png)
+![](https://github.com/julio-pimentel/SEEK_Job_Market_analysis/blob/main/Plots/number%20job%20posts%20GC.png)
 
 Although in both locations, most of the job offers are for positions with low average salaries, it is evident that better salary options are available in Adelaide. As seen from the box plot, the median of the average salaries is higher in Adelaide, and the maximum salary is also higher. Therefore, it is possible to conclude that Adelaide is more well-paid than Gold Coast.
 
-
+![](https://github.com/julio-pimentel/SEEK_Job_Market_analysis/blob/main/Plots/job%20salary%20range%20per%20city.png)
 
 When analysing which city is better for employees, it is taken into consideration the probability of getting a job in each city. Therefore, the analysis observes the total number of job posts disregarding if the job is for white or blue-collar. In general, because the city of Adelaide is bigger than Gold Coast, it is expected to have more job opportunities available and, also, more options for higher salaries. Therefore, if someone is looking for a place with more chances to get a job and be well remunerated, Adelaide is a better option than Gold Coast. However, it is relevant to highlight that, when it comes to employability in the sector of “Hospitality & Tourism”, Gold Coast can be a better choice than Adelaide due to the higher number of job posts for this sector. On the other hand, Adelaide offers far more opportunities for those pursuing a career in the sectors of “Trades & Services”, “Healthcare & Medical”, “Manufacturing, Transport & Logistics” and “Information & Communication Technology”.
 
-
-
 The data covers a period of six weeks and one day, with data for the full month of October but only slightly less than half of November. With this in mind, a decision was made to average the job posts to a daily figure to compare across months, days of the week and day of the month to ensure meaningful insight. The average daily job post count was significantly higher in October than November. Most jobs are posted on a weekday, with Wednesday, on average, the most popular day to post a job, with the weekend showing very few job posts. Averaging the daily job posts by day of the month shows a significant spike in the middle of the month, with a reasonably quiet period from the 20th to the 28th with very few job posts. The top 5 cities follow the same trends regarding posting of jobs over time. However, there is a noticeable difference in the number of posts per city. Trend analysis further illustrates the low number of job posts, in the top 5 cities, in the latter part of October. In conclusion, the most defining feature of job posts over time is the harmonious trend of all top 5 cities over the period and Wednesday being the most popular day of the week a job was posted.
+
+![](https://github.com/julio-pimentel/SEEK_Job_Market_analysis/blob/main/Plots/average%20job%20post%20per%20day.png)
+![](https://github.com/julio-pimentel/SEEK_Job_Market_analysis/blob/main/Plots/job%20posts%20by%20dayweek.png)
+![](https://github.com/julio-pimentel/SEEK_Job_Market_analysis/blob/main/Plots/trend%20job%20posts%20big%20cities.png)
 
 
 Our group selected the variable “Information & Communication Technology” in the “Classification” column to make the TF/IDF analysis and extract relevant keywords on the
 “Title” column. A word cloud chart was created with the 40 most relevant words obtained from the “Title” column. Words such as “developer”, “analyst”, “senior”, “manager”, and “engineer” were the most relevant. 
 
+![](https://github.com/julio-pimentel/SEEK_Job_Market_analysis/blob/main/Plots/word%20cloud.png)
 
 Acknowledgements: <br>
 Gabriela Monteiro<br>
