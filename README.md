@@ -4,10 +4,9 @@ Griffith University, Queensland, Australia
 Master of Information Technology 
 
 This repository is the final assignment of the course 7030ICT Introduction to Big Data Analytics at Griffith University. In this assignment, we studied the Seek Job Market dataset. We focused on the Information & Communication Technology category. 
-* 
-Acknowledgements: 
+
+<p>Acknowledgements: 
 Gabriela Monteiro
 Julio Pimentel
 Daniel Spindler
-Henry Nguyen, Griffith University
-* 
+Henry Nguyen, Griffith University </p>
