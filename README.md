@@ -8,22 +8,54 @@ The sector of Information and Communication Technology, which was chosen for a m
 
 A horizontal bar chart was chosen to display the presence of null or missing values. The “Area” column contains a significant number of missing values. “Area” is a subcategory of “location” and therefore not an issue within the dataset. “Company” is likely absent due to some companies preferring not to display their company name.
 
+![](https://github.com/julio-pimentel/SEEK_Job_Market_analysis/blob/main/Plots/missing%20data%20in%20dataset.png)
+
 ## Part 2 - Data Analysis and Interpretation
 
 The average salary with more job postings is $15,000, and the average salary with fewer job postings is $225,000. Another insight from this graph is that the average salary from $35,000 to $175,000 has similar job postings, except for the average salary of $45,000.
 
+![](https://github.com/julio-pimentel/SEEK_Job_Market_analysis/blob/main/Plots/number%20job%20postings%20avg%20salary.png)
 
 The “Full Time” category has more job postings, and the “Part-Time” category has fewer job postings in this dataset. 
 
+![](https://github.com/julio-pimentel/SEEK_Job_Market_analysis/blob/main/Plots/job%20posts%20salary%20range.png)
 
 The top five sectors in this dataset are "Information & Communication Technology", "Trades & Services", "Healthcare & Medical", "Hospitality & Tourism", and "Manufacturing, Transport & Logistics". The bottom five sectors in this dataset are "Self-Employment", "CEO & General Management", "Advertisement, Arts & Media", "Farming, Animals & Conservation", and "Science & Technology". Job postings of “CEO & General Management” seem to have a relationship between the frequency of job postings with an average salary of $225,000.
 
+![](https://github.com/julio-pimentel/SEEK_Job_Market_analysis/blob/main/Plots/job%20posts%20by%20sector.png)
 
 Melbourne was the location selected to visualise the market share in a pie chart. The top five sectors in Melbourne are "Information, Communication & Technology", "Hospitality &
 Tourism", "Trade & Services", "Manufacturing, Transport & Logistics", and "Healthcare & Medical". The top five sectors in Melbourne are consistent with the top five sectors in Australia, with minor differences in the order of the ranking. Sectors with little significance in the dataset are grouped as “Other”. 
 
+![](https://github.com/julio-pimentel/SEEK_Job_Market_analysis/blob/main/Plots/melbourne%20jobs%20classification.png)
 
 The locations “Port Headland, Karratha & Pilbara”, “Kalgoorlie, Goldfields & Esperance” and “ACT” have the most significant disparity between the highest salaries. The first two locations are likely due to mining-related jobs, whereas the last location offers Federal Government employment. On the other hand “Sunshine Coast”, “Gold Coast”, and “Mornington Peninsula & Bass Coast” have a lower disparity with the average salary, in part related to a larger tourism sector and a lack of white collar industry.
+
+![](https://github.com/julio-pimentel/SEEK_Job_Market_analysis/blob/main/Plots/locations%20avg%20highest%20salary.png)
+
+## Part 3. Data Analysis and Interpretation 
+
+We compared the cities of Adelaide and Gold Coast in terms of the number of job posts for four different job types. Overall, Adelaide has more job posts, and the ranking
+of job types is the same in both cities. To begin, Adelaide is the city with the highest number of job posts, having 4,873 open positions. In contrast, the Gold Coast shows a total of 2,695 posts. The ranking of type of jobs in both cities follows the same pattern: full-time jobs occupy the first place in several job posts, followed by casual/vacation in the second place, contract/temp in the third place and part-time in the last position. 
+
+
+
+It is possible to see that the top five sectors are very similar in both cities, with some slight variations. It is evident that “Trades & Services” and “Healthcare & Medical” are equally important in both locations, representing a good number of job posts. 
+
+
+Although in both locations, most of the job offers are for positions with low average salaries, it is evident that better salary options are available in Adelaide. As seen from the box plot, the median of the average salaries is higher in Adelaide, and the maximum salary is also higher. Therefore, it is possible to conclude that Adelaide is more well-paid than Gold Coast.
+
+
+
+When analysing which city is better for employees, it is taken into consideration the probability of getting a job in each city. Therefore, the analysis observes the total number of job posts disregarding if the job is for white or blue-collar. In general, because the city of Adelaide is bigger than Gold Coast, it is expected to have more job opportunities available and, also, more options for higher salaries. Therefore, if someone is looking for a place with more chances to get a job and be well remunerated, Adelaide is a better option than Gold Coast. However, it is relevant to highlight that, when it comes to employability in the sector of “Hospitality & Tourism”, Gold Coast can be a better choice than Adelaide due to the higher number of job posts for this sector. On the other hand, Adelaide offers far more opportunities for those pursuing a career in the sectors of “Trades & Services”, “Healthcare & Medical”, “Manufacturing, Transport & Logistics” and “Information & Communication Technology”.
+
+
+
+The data covers a period of six weeks and one day, with data for the full month of October but only slightly less than half of November. With this in mind, a decision was made to average the job posts to a daily figure to compare across months, days of the week and day of the month to ensure meaningful insight. The average daily job post count was significantly higher in October than November. Most jobs are posted on a weekday, with Wednesday, on average, the most popular day to post a job, with the weekend showing very few job posts. Averaging the daily job posts by day of the month shows a significant spike in the middle of the month, with a reasonably quiet period from the 20th to the 28th with very few job posts. The top 5 cities follow the same trends regarding posting of jobs over time. However, there is a noticeable difference in the number of posts per city. Trend analysis further illustrates the low number of job posts, in the top 5 cities, in the latter part of October. In conclusion, the most defining feature of job posts over time is the harmonious trend of all top 5 cities over the period and Wednesday being the most popular day of the week a job was posted.
+
+
+Our group selected the variable “Information & Communication Technology” in the “Classification” column to make the TF/IDF analysis and extract relevant keywords on the
+“Title” column. A word cloud chart was created with the 40 most relevant words obtained from the “Title” column. Words such as “developer”, “analyst”, “senior”, “manager”, and “engineer” were the most relevant. 
 
 
 Acknowledgements: <br>
